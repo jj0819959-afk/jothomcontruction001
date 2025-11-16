@@ -41,8 +41,8 @@ const CTA = () => {
         }`}
         style={{
           backgroundImage: `
-            linear-gradient(90deg, transparent 0%, rgba(200, 148, 70, 0.1) 50%, transparent 100%),
-            linear-gradient(0deg, transparent 0%, rgba(200, 148, 70, 0.1) 50%, transparent 100%)
+            linear-gradient(90deg, transparent 0%, rgba(199, 44, 126, 0.1) 50%, transparent 100%),
+            linear-gradient(0deg, transparent 0%, rgba(199, 44, 126, 0.1) 50%, transparent 100%)
           `,
           backgroundSize: '100px 100px',
         }}
@@ -55,14 +55,14 @@ const CTA = () => {
           }`}
         >
           <div className="flex items-center justify-center gap-4 mb-6">
-            <div className="w-16 h-px bg-[#c89446]" />
-            <span className="text-[#c89446] tracking-[0.4em] text-sm uppercase font-light">Let's Collaborate</span>
-            <div className="w-16 h-px bg-[#c89446]" />
+            <div className="w-16 h-px bg-[#00a4b8]" />
+            <span className="text-[#00a4b8] tracking-[0.4em] text-sm uppercase font-light">Let's Collaborate</span>
+            <div className="w-16 h-px bg-[#00a4b8]" />
           </div>
 
           <h2 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-8 leading-none">
             <span className="block mb-4">LET'S BUILD</span>
-            <span className="block text-[#c89446]">SOMETHING</span>
+            <span className="block text-[#c72c7e]">SOMETHING</span>
             <span className="block">EXTRAORDINARY</span>
           </h2>
 
@@ -73,7 +73,7 @@ const CTA = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="group relative px-12 py-6 bg-[#c89446] text-black font-bold tracking-wider uppercase overflow-hidden transition-all duration-500 hover:bg-transparent hover:text-white border-2 border-[#c89446]">
+            <button className="group relative px-12 py-6 bg-[#00a4b8] text-black font-bold tracking-wider uppercase overflow-hidden transition-all duration-500 hover:bg-transparent hover:text-white border-2 border-[#00a4b8]">
               <span className="relative z-10 flex items-center gap-3">
                 Request a Quote
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
@@ -81,7 +81,7 @@ const CTA = () => {
               <div className="absolute inset-0 bg-black transform translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
             </button>
 
-            <button className="group px-12 py-6 bg-transparent border-2 border-white text-white font-bold tracking-wider uppercase transition-all duration-500 hover:border-[#c89446] hover:text-[#c89446]">
+            <button className="group px-12 py-6 bg-transparent border-2 border-white text-white font-bold tracking-wider uppercase transition-all duration-500 hover:border-[#c72c7e] hover:text-[#c72c7e]">
               View Portfolio
             </button>
           </div>
@@ -99,9 +99,9 @@ const CTA = () => {
             { value: '100%', label: 'Satisfaction' },
           ].map((stat, idx) => (
             <div key={idx} className="relative group">
-              <div className="absolute inset-0 bg-[#c89446]/5 backdrop-blur-sm border border-[#c89446]/30 transform transition-all duration-500 group-hover:scale-105" />
+              <div className="absolute inset-0 bg-[#00a4b8]/5 backdrop-blur-sm border border-[#00a4b8]/30 transform transition-all duration-500 group-hover:scale-105" />
               <div className="relative p-6">
-                <div className="text-4xl font-black text-[#c89446] mb-2">{stat.value}</div>
+                <div className="text-4xl font-black text-[#00a4b8] mb-2">{stat.value}</div>
                 <div className="text-sm text-gray-400 uppercase tracking-wider">{stat.label}</div>
               </div>
             </div>
@@ -109,8 +109,8 @@ const CTA = () => {
         </div>
       </div>
 
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#c89446] to-transparent" />
-      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#c89446] to-transparent" />
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#c72c7e] to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#c72c7e] to-transparent" />
     </section>
   );
 };

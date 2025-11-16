@@ -63,12 +63,12 @@ const Portfolio = () => {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-4 mb-4">
-            <div className="w-12 h-px bg-[#c89446]" />
-            <span className="text-[#c89446] tracking-[0.3em] text-sm uppercase font-light">Case Studies</span>
-            <div className="w-12 h-px bg-[#c89446]" />
+            <div className="w-12 h-px bg-[#00a4b8]" />
+            <span className="text-[#00a4b8] tracking-[0.3em] text-sm uppercase font-light">Case Studies</span>
+            <div className="w-12 h-px bg-[#00a4b8]" />
           </div>
           <h2 className="text-5xl md:text-7xl font-black tracking-tight mb-4">
-            FEATURED <span className="text-[#c89446]">PROJECTS</span>
+            FEATURED <span className="text-[#c72c7e]">PROJECTS</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Transforming architectural visions into iconic structures
@@ -79,7 +79,7 @@ const Portfolio = () => {
           {projects.map((project, idx) => (
             <div
               key={idx}
-              className={`group relative overflow-hidden bg-black border border-gray-800 transition-all duration-700 hover:border-[#c89446] ${
+              className={`group relative overflow-hidden bg-black border border-gray-800 transition-all duration-700 hover:border-[#00a4b8] ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
               }`}
               style={{ transitionDelay: `${idx * 150}ms` }}
@@ -92,7 +92,7 @@ const Portfolio = () => {
                 />
               </div>
 
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#c89446] to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700" />
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#c72c7e] to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700" />
             </div>
           ))}
         </div>

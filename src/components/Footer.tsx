@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="text-4xl font-black tracking-tighter mb-6">
               <span className="text-white">JOTHOM</span>
-              <span className="text-[#c89446]">.</span>
+              <span className="text-[#c72c7e]">.</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
               Building the future with precision, integrity, and innovation since 2017.
@@ -22,7 +22,7 @@ const Footer = () => {
                 <a
                   key={idx}
                   href="#"
-                  className="w-10 h-10 border border-gray-800 flex items-center justify-center hover:border-[#c89446] hover:text-[#c89446] transition-all duration-300 group"
+                  className="w-10 h-10 border border-gray-800 flex items-center justify-center hover:border-[#00a4b8] hover:text-[#00a4b8] transition-all duration-300 group"
                 >
                   <Icon className="w-4 h-4" />
                 </a>
@@ -46,9 +46,9 @@ const Footer = () => {
                 <li key={idx}>
                   <a
                     href="#"
-                    className="text-gray-400 hover:text-[#c89446] transition-colors duration-300 flex items-center gap-2 group"
+                    className="text-gray-400 hover:text-[#c72c7e] transition-colors duration-300 flex items-center gap-2 group"
                   >
-                    <span className="w-0 h-px bg-[#c89446] group-hover:w-4 transition-all duration-300" />
+                    <span className="w-0 h-px bg-[#c72c7e] group-hover:w-4 transition-all duration-300" />
                     {service}
                   </a>
                 </li>
@@ -66,9 +66,9 @@ const Footer = () => {
                   <li key={idx}>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-[#c89446] transition-colors duration-300 flex items-center gap-2 group"
+                      className="text-gray-400 hover:text-[#00a4b8] transition-colors duration-300 flex items-center gap-2 group"
                     >
-                      <span className="w-0 h-px bg-[#c89446] group-hover:w-4 transition-all duration-300" />
+                      <span className="w-0 h-px bg-[#00a4b8] group-hover:w-4 transition-all duration-300" />
                       {item}
                     </a>
                   </li>
@@ -83,18 +83,18 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
-                <MapPin className="w-5 h-5 text-[#c89446] mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-[#00a4b8] mt-1 flex-shrink-0" />
                 <span>8793 Pigmelon Street, Ria Vista, Pretoria, 0175</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Phone className="w-5 h-5 text-[#c89446] flex-shrink-0" />
-                <a href="tel:+27825829847" className="hover:text-[#c89446] transition-colors duration-300">
+                <Phone className="w-5 h-5 text-[#c72c7e] flex-shrink-0" />
+                <a href="tel:+27825829847" className="hover:text-[#c72c7e] transition-colors duration-300">
                   +27 82 582 9847
                 </a>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Mail className="w-5 h-5 text-[#c89446] flex-shrink-0" />
-                <a href="mailto:thomasngilazi@gmail.com" className="hover:text-[#c89446] transition-colors duration-300">
+                <Mail className="w-5 h-5 text-[#00a4b8] flex-shrink-0" />
+                <a href="mailto:thomasngilazi@gmail.com" className="hover:text-[#00a4b8] transition-colors duration-300">
                   thomasngilazi@gmail.com
                 </a>
               </li>
@@ -102,7 +102,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="h-px bg-gradient-to-r from-transparent via-[#c89446]/30 to-transparent mb-8" />
+        <div className="h-px bg-gradient-to-r from-transparent via-[#c72c7e]/30 to-transparent mb-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <div className="flex flex-col md:flex-row items-center gap-4">
@@ -111,17 +111,17 @@ const Footer = () => {
             <p className="text-gray-600">Built on Precision. Inspired by Innovation.</p>
           </div>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-[#c89446] transition-colors duration-300">
+            <a href="#" className="hover:text-[#c72c7e] transition-colors duration-300">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-[#c89446] transition-colors duration-300">
+            <a href="#" className="hover:text-[#c72c7e] transition-colors duration-300">
               Terms of Service
             </a>
           </div>
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c89446] to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c72c7e] to-transparent" />
     </footer>
   );
 };

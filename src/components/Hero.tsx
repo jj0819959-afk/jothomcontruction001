@@ -30,10 +30,10 @@ const Hero = () => {
 
       <div className="absolute inset-0 grid-overlay opacity-5 z-20" />
 
-      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c89446] to-transparent z-30" />
-      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c89446] to-transparent z-30" />
-      <div className="absolute top-0 left-0 w-px h-full bg-gradient-to-b from-transparent via-[#c89446] to-transparent z-30" />
-      <div className="absolute top-0 right-0 w-px h-full bg-gradient-to-b from-transparent via-[#c89446] to-transparent z-30" />
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#7a7a7a] to-transparent z-30" />
+      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#7a7a7a] to-transparent z-30" />
+      <div className="absolute top-0 left-0 w-px h-full bg-gradient-to-b from-transparent via-[#7a7a7a] to-transparent z-30" />
+      <div className="absolute top-0 right-0 w-px h-full bg-gradient-to-b from-transparent via-[#7a7a7a] to-transparent z-30" />
 
       <div className="relative z-30 h-full flex items-center justify-center px-6">
         <div className="max-w-6xl mx-auto text-center">
@@ -52,9 +52,9 @@ const Hero = () => {
           </div>
 
           <div className="mb-4 flex items-center justify-center gap-4">
-            <div className="h-px w-12 bg-[#c89446]" />
-            <span className="text-[#c89446] tracking-[0.3em] text-sm font-light uppercase">Est. 2017</span>
-            <div className="h-px w-12 bg-[#c89446]" />
+            <div className="h-px w-12 bg-[#00a4b8]" />
+            <span className="text-[#00a4b8] tracking-[0.3em] text-sm font-light uppercase">Est. 2017</span>
+            <div className="h-px w-12 bg-[#00a4b8]" />
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter mb-6 leading-tight">
@@ -64,7 +64,7 @@ const Hero = () => {
             <span className="block text-reveal bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent" style={{ animationDelay: '0.4s' }}>
               FUTURE
             </span>
-            <span className="block text-[#c89446] text-reveal" style={{ animationDelay: '0.6s' }}>
+            <span className="block text-[#c72c7e] text-reveal" style={{ animationDelay: '0.6s' }}>
               WITH PRECISION
             </span>
           </h1>
@@ -75,21 +75,30 @@ const Hero = () => {
             Jothom Construction delivers world-class structures engineered with integrity and innovation.
           </p>
 
-          <button className="group relative px-12 py-5 bg-transparent border-2 border-[#c89446] text-white font-bold tracking-wider uppercase overflow-hidden transition-all duration-500 hover:text-black fade-in" style={{ animationDelay: '1s' }}>
+          <button className="group relative px-12 py-5 bg-transparent border-2 border-[#00a4b8] text-white font-bold tracking-wider uppercase overflow-hidden transition-all duration-500 hover:text-black fade-in" style={{ animationDelay: '1s' }}>
             <span className="relative z-10">Start Your Project</span>
-            <div className="absolute inset-0 bg-[#c89446] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
+            <div className="absolute inset-0 bg-[#00a4b8] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
             <div className="absolute inset-0 border border-white/20 transform translate-x-2 translate-y-2 group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-500" />
           </button>
 
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ChevronDown className="w-8 h-8 text-[#c89446]" />
+            <ChevronDown className="w-8 h-8 text-[#c72c7e]" />
           </div>
         </div>
       </div>
 
-      <div className="absolute top-20 left-8 text-4xl font-black tracking-tighter z-40">
-        <span className="text-white">JOTHOM</span>
-        <span className="text-[#c89446]">.</span>
+      <div className="absolute top-8 left-8 z-40 flex flex-col items-center gap-3">
+        <div className="w-16 h-16 rounded-full bg-white/10 border border-white/20 flex items-center justify-center overflow-hidden">
+          <img
+            src="/Screenshot 2025-11-15 132907.png"
+            alt="Jothom Logo"
+            className="w-12 h-12 object-contain"
+          />
+        </div>
+        <div className="text-4xl font-black tracking-tighter">
+          <span className="text-white">JOTHOM</span>
+          <span className="text-[#c72c7e]">.</span>
+        </div>
       </div>
     </section>
   );
