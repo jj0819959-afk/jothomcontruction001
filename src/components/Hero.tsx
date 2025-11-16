@@ -87,7 +87,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute top-8 left-8 text-4xl font-black tracking-tighter z-40">
+      <div className="absolute top-20 left-8 text-4xl font-black tracking-tighter z-40">
         <span className="text-white">JOTHOM</span>
         <span className="text-[#c89446]">.</span>
       </div>
